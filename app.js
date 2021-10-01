@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     btn.addEventListener('click', () => {
         if(input.value === "") {
-            alert("Create to do")
+            alert("Create task")
         } else {
             let value = document.getElementById("input").value
 
